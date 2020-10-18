@@ -29,7 +29,7 @@ function main() {
 
   function displayOptions() {
     if ( strip(userInput.value) == "" ) {
-      alert("Please input a keyword.");
+      alert("Wprowadź klucz.");
     }
     else {
       eDMenu.style.visibility = "visible";

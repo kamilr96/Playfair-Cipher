@@ -26,7 +26,7 @@ function decrypt() {
 
 
   if ( ciphT == "" ) {
-    alert("Please input a text to be decrypted.")
+    alert("Wpisz tekst!")
   }
   else {
 

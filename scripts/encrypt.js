@@ -16,7 +16,7 @@ function strip(aString) {
 
     var letter = aString.charAt(item);
 
-    // ignore whitespace and append to string
+    
     if (letter.search(/\s|\W|\d/igm) == -1) {
       splitString += letter;
     }
@@ -146,7 +146,7 @@ function encrypt() {
 
 
   if ( plainT == "" ) {
-    alert("Please input a text to be encrypted.");
+    alert("Wprowadź tekst!");
   }
   else {
 
